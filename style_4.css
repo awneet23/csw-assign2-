@@ -1,0 +1,15 @@
+/* Default styling for the div */
+.background-div {
+  width: 500px;
+  height: 600px;
+  background-image: url('https://plus.unsplash.com/premium_photo-1673266633993-013acd448898?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dXNhfGVufDB8fDB8fHww'); /* Default background image */
+  background-size: cover;
+  background-position: center;
+  margin: 20px auto;
+  transition: background-image 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Change the background image when hovering over the div */
+.background-div:hover {
+  background-image: url('https://images.unsplash.com/photo-1532952626554-d0cace1cd3fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHVzYXxlbnwwfHwwfHx8MA%3D%3D'); /* Background image when hovering */
+}

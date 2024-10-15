@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sticky Navigation Bar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #575757;
+}
+
+/* Horizontally Repeated Background Image */
+.image-section {
+  background-image: url('https://images.unsplash.com/photo-1532767153582-b1a0e5145009?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2t5fGVufDB8fDB8fHww');
+  background-repeat: repeat-x;
+  background-size: contain;
+  text-align: center;
+  padding: 60px 0;
+  color: black;
+}
+
+/* Styled Text */
+.text-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.styled-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Image with Border and Outline */
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.styled-image {
+  border: 5px solid #3498db;
+  outline: 10px dotted #e74c3c;
+  padding: 10px;
+  border-radius: 50%;
+  width:150px
+}
+
+/* Additional Styling for Scroll Effect */
+body {
+  background-color: #f0f0f0;
+}

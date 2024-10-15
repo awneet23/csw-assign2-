@@ -1,0 +1,32 @@
+/* Styling for the table */
+.styled-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 2px solid #333;
+}
+
+/* Styling for table headers */
+.styled-table th {
+  /* background-color: #f4f4f4; */
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styling for table cells */
+.styled-table td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Setting height for table rows */
+.styled-table tr {
+  height: 40px;
+}
+
+/* Background color for the 1st, 4th, 7th, 10th, and every third row thereafter */
+.styled-table tr:nth-of-type(3n+1) {
+  background-color:red;
+}

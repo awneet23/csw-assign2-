@@ -1,0 +1,11 @@
+/* Default styling for the div */
+.special-div {
+  font-size: 24px;
+  color: black; /* Default text color */
+  margin-top: 10px;
+}
+
+/* Change the color of the div when the image is hovered */
+.hover-container:hover .special-div {
+  color: red; /* Change to any color you prefer */
+}
